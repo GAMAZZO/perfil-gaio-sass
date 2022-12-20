@@ -1,10 +1,16 @@
+import './styles/components/app.sass'
+
+import Sidebar from './components/Sidebar'
+import MainContent from './components/MainContent'
 
 function App() {
 
 
   return (
-    <div className="App">
-      <h1>React + SASS</h1>
+    <div id="portifolio">
+      <h1>Gaio Maso</h1>
+      <Sidebar />
+      <MainContent />
     </div>
   )
 }
