@@ -1,5 +1,5 @@
 
-import Avatar from '../img/eu.jpg'
+import Avatar from '../img/eu3.jpg'
 import SocialNetworks from './SocialNetworks'
 
 import "../styles/components/sidebar.sass"
