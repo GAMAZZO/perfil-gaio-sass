@@ -4,9 +4,10 @@ const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui enim quaerat labore alias. Eveniet quo cumque et, in tempora nisi dignissimos expedita saepe fugiat ullam quisquam itaque, eos repellendus minus.</p>
+      <p>Aqui é onde colocarei meus projetos, vou fazer uma parte só pra deles</p>
+      <p>botão inativo </p>
       <a href="#" className='btn'>
-        Ver projetos
+        coming soon ...
       </a>
     </section>
 
