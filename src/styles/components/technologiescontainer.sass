@@ -11,40 +11,63 @@
 
         .technology-card
             @include mixins.center
+            align-items: baseline
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
             width: 45%
             border-radius: variables.$card-border-radius
 
-            h3
-                color: variables.$text-color
-                margin-bottom: 1rem
+            .h3-flex
+                display: flex
+                justify-content: center
+                align-items: center
+                flex-direction: column
 
-            svg
-                font-size: 6rem
+                h3
+                    color: variables.$text-color
+                    margin-bottom: 1rem
+                    color: #e44d26
+                    
+
+                svg
+                    font-size: 6rem
 
         #html
             svg
                 color: #e44d26
-                
-        
+                text-align: center
+            p
+                text-align: justify  
+                     
         #css
             svg
                 color: #1572b6
+            p
+                text-align: justify    
 
         #sass
             svg
-                color: #CD6799    
+                color: #CD6799  
+            p
+                text-align: justify      
 
         #node
             svg
                 color: #83cd29
+            p
+                text-align: justify    
 
         #springboot
             svg
-                color: #6AAD3D                
+                color: #6AAD3D    
+            p
+                text-align: justify                
 
         #react
             svg
-                color: #61dafb        
+                color: #61dafb
+            p
+                text-align: justify            
+
+        
