@@ -38,40 +38,52 @@
                 color: #e44d26
                 text-align: center
             p
-                text-align: justify  
+                text-align: start  
                      
         #css
             svg
                 color: #1572b6
             p
-                text-align: justify    
+                text-align: start    
 
         #sass
             svg
                 color: #CD6799  
             p
-                text-align: justify      
+                text-align: start      
 
         #node
             svg
                 color: #83cd29
             p
-                text-align: justify    
+                text-align: start    
 
         #springboot
             svg
                 color: #6AAD3D    
             p
-                text-align: justify                
+                text-align: start                
 
         #react
             svg
                 color: #61dafb
             p
-                text-align: justify            
+                text-align: start            
 
 
 /* Mobile */           
+
+@media ( max-width: 768px )
+
+.technologies-container
+        .technologies-grid
+            flex-direction: column
+            align-content: center
+
+            .technology-card
+                width: auto
+
+
 @media ( max-width: 425px )
 
     .technologies-container
