@@ -7,7 +7,8 @@
     .technologies-grid
         display: flex
         flex-wrap: wrap
-        gap: 1.5rem    
+        gap: 1.5rem  
+        justify-content: center  
 
         .technology-card
             @include mixins.center
@@ -17,6 +18,7 @@
             border: 1px solid #333
             width: 45%
             border-radius: variables.$card-border-radius
+            
 
             .h3-flex
                 display: flex
@@ -73,12 +75,23 @@
 
 /* Mobile */           
 
+@media ( max-width: 1024px )
+
+    .technologies-container       
+        .technologies-grid
+            .technology-card
+                width: 100%
+    
 @media ( max-width: 768px )
 
     .technologies-container
+        
         .technologies-grid
-            justify-content: center
-
+            flex-direction: column           
+            align-content: center
+            .technology-card
+                width: 100%
+            
 
 @media ( max-width: 425px )
 
