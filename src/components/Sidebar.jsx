@@ -1,5 +1,5 @@
 
-import Avatar from '../img/eu2.jpg'
+import Avatar from '../img/eu10.png'
 import SocialNetworks from './SocialNetworks'
 import InformationContainer from './InformationContainer'
 import curriculo from '../files/curriculo.pdf'
